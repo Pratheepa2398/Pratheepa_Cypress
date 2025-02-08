@@ -20,7 +20,7 @@ describe('Handle Tables', (()=>{
     })
 
 
- it('Check Number Rows & COlumns',()=>{
+ it('Check Number Rows & Columns',()=>{
 
 
 
