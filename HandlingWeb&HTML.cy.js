@@ -26,7 +26,7 @@ describe('Handle Tables', (()=>{
 
  })
 
- it('Check celld ata from specific row & COlumn',()=>{
+ it('Check celled data from specific row & Column',()=>{
 
 
 
