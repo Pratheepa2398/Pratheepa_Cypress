@@ -221,8 +221,8 @@ describe("API herokuapp automation", () => {
 
     it("partial update of 2nd record", () => {
         const partial = {
-            firstname: "Janaki",
-            lastname: "Thirumalai"
+            firstname: "Pratheepa",
+            lastname: "K"
         };
     
         if (bookingIds.length > 0) {
@@ -254,8 +254,8 @@ describe("API herokuapp automation", () => {
                 url: `https://restful-booker.herokuapp.com/booking/${bookingIdToFetch}`, 
             }).then((response) => {
                 expect(response.status).to.equal(200);
-                expect(response.body.firstname).to.equal("Janaki");
-                expect(response.body.lastname).to.equal("Thirumalai"); 
+                expect(response.body.firstname).to.equal("Pratheepa");
+                expect(response.body.lastname).to.equal("K"); 
                 console.log(`Fetched patched record for booking ID: ${bookingIdToFetch}`, response.body);
             });
         }
